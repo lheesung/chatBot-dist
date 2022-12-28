@@ -49,7 +49,7 @@ st.subheader("안녕하세요 부산소마고 챗봇입니다.")
 
 st.sidebar.header('BSSM 챗봇')
 st.sidebar.markdown(
-    '[부산소프트웨어마이스터고등학교](https://bssm.hs.kr) 4차 산업혁명 핵심기술의 근간은 ‘SW’로 글로벌 시장은 SW인재 중심으로 급속히 재편 중이며, 기업에서도 SW인재 개발 분야를 지원, 학력 불문한 SW영재양성을 필요로 하고 있습니다')
+    '안녕하세요! BSSM 챗봇입니다. 저희 학교에 대한 궁금한 점이 있다면 무엇이든 물어보세요!')
 
 st.sidebar.header('관련 사이트')
 st.sidebar.markdown(
@@ -57,6 +57,7 @@ st.sidebar.markdown(
 - [학교 홈페이지](https://bssm.hs.kr)
 - [재학생 정보 홈페이지](https://bssm.kro.kr)
 - [학교 그룸](https://bssm21-hs.goorm.io)
+- [학교 인스타그램](https://www.instagram.com/bssm.hs/)
 ''')
 
 with st.form('form', clear_on_submit=True):
